@@ -9,6 +9,7 @@
         z-index: 10;
         transition: all .2s;
         outline-offset: 2rem;
+        overflow: hidden;
 
         @include respond(tab-port){
             float: left;
@@ -41,6 +42,7 @@
         &--p3 {
             left: 20%;
             top: 10rem;
+            overflow: hidden !important;
 
                 @include respond(tab-port){
                     top: 1rem;
